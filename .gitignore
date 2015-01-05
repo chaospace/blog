@@ -1,0 +1,6 @@
+_site
+.sass-cache
+.idea
+#.gitignore
+Gemfile.lock
+_config.yml
