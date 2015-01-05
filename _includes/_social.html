@@ -1,0 +1,24 @@
+{% if site.chaospace.sharing.twitter or site.chaospace.sharing.facebook or site.chaospace.sharing.gplus or site.chaospace.sharing.hn %}
+<div class="social">
+    {% if site.chaospace.sharing.twitter %}<div>
+        <a href="https://twitter.com/share" class="twitter-share-button" {% if site.chaospace.sharing.twitter.via %}data-via="{{ site.chaospace.sharing.twitter.via }}"{% endif %} data-text="{{ page.title }}" data-related="{{ site.chaospace.twitter }}">Tweet</a>
+    </div>
+    {% endif %}
+    {% if site.chaospace.sharing.facebook %}
+    <div>
+        <div class="fb-like" data-width="150" data-layout="button_count" data-action="like" data-show-faces="true" data-send="false"></div>
+    </div>
+    {% endif %}
+    {% if site.chaospace.sharing.gplus %}
+    <div>
+        <div class="g-plusone" data-size="medium"></div>
+    </div>
+    {% endif %}
+    
+    {% if site.chaospace.sharing.hn %}
+    <div>
+        <a href="http://news.ycombinator.com/submit" class="hn-share-button">Vote on HN</a>
+    </div>
+    {% endif %}
+</div>
+{% endif %}
