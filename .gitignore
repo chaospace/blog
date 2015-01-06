@@ -1,6 +1,6 @@
 _site
 .sass-cache
 .idea
-#.gitignore
+.gitignore
 Gemfile.lock
-_config.yml
+#_config.yml
