@@ -47,8 +47,8 @@ url : http://chaospace.github.io
 future:      false
 show_drafts: nil
 limit_posts: 0
-highlighter: pygments
-#highlighter: rouge
+#highlighter: pygments
+highlighter: rouge
 relative_permalinks: true
 
 permalink:     pretty
