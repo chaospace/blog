@@ -100,7 +100,7 @@ $(function() {
         if(!postInfo.title.length) postInfo.title = 'untitled';
         dl.append('<dt><a href="' + postInfo.href + '">' + postInfo.title + '</a></dt>');
         if(postInfo.date) {
-          dl.append('<dd>' + postInfo.date.year + '年' + postInfo.date.month + '月' + postInfo.date.day + '日' + '</dd>');
+          dl.append('<dd>' + postInfo.date.year + '년 ' + postInfo.date.month + '월 ' + postInfo.date.day + '일' + '</dd>');
         }
         if(postInfo.tags.length) {
           var dd = '<dd>tags: ';
