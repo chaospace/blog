@@ -35,16 +35,24 @@
     <header>
         <nav id="navigation">
             <a class="brand" href="/">
-                <img src="/images/{{ site.chaospace.logo }}" alt="Inc">
+                <img src="/images/{{ site.chaospace.logo }}" alt="chaospace">
             </a>
             <a href="/" class="home">Blog</a>
             {% if site.chaospace.product_link %}<a href="{{ site.chaospace.product_link }}">Product</a>{% endif %}
             {% if site.chaospace.about_link %}<a href="{{ site.chaospace.about_link }}" target="_blank">About</a>{% endif %}
         </nav>
-        {% if site.chaospace.tagline or site.chaospace.product_url %}<nav class="tagline">
-            {% if site.chaospace.tagline %}<span>{{ site.chaospace.tagline }}</span>{% endif %}
-            {% if site.chaospace.product_link %}<a href="{{ site.chaospace.product_link }}" class="btn btn-outline">Learn More</a>{% endif %}
-        </nav>{% endif %}
+        {% if site.chaospace.tagline or site.chaospace.projects_link %}
+		<nav class="tagline">
+			{% if site.chaospace.tagline %}<span>{{ site.chaospace.tagline }}</span>{% endif %}
+			{% if site.chaospace.projects_link %}<a href="{{ site.chaospace.projects_link }}" class="btn btn-outline">Projects</a>{% endif %}
+		</nav>
+		{% endif %}
+		<nav class="search-field">
+			<form action = "/search" method="get">
+				<input type="search" name="q" placeholder="Search" />
+			</form>
+		</nav>
+		
     </header>
 </section>
 {{ content }}

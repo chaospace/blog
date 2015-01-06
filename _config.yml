@@ -14,7 +14,7 @@ chaospace:
   about_link:   http://chaospace.github.io/timeline
   
   # Product Information
-  #product_link: http://incorporated.sendtoinc.com/
+  projects_link: http://chaospace.github.io/projects
   #tagline:      ""
   
   # Comments
@@ -47,8 +47,8 @@ url : http://chaospace.github.io
 future:      false
 show_drafts: nil
 limit_posts: 0
-highlighter: pygments
-#highlighter: rouge
+#highlighter: pygments
+highlighter: rouge
 relative_permalinks: true
 
 permalink:     pretty

@@ -7,6 +7,10 @@ cover_image: blog-cover.jpg
 
 excerpt: "github-pages를 통해 블로그를 만들어 보자."
 
+tag: [github, jekyll, github-pages]
+
+category: "programming"
+
 author:
   name: chaospace
   twitter: ichaospace
