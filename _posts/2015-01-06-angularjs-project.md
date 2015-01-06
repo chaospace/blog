@@ -19,18 +19,17 @@ author:
   image: ks.png
 ---
 
-github-pages를 통해 로컬에서 문제없이 잘 보이던 내용이 github에 올리고 보니 failded라고 나오며 명확한 이유도 안보였다.  
-{% include _figure.html src="/images/2015-01-05/git-pages-build-fail.jpg" caption="build failed message" %}
-<br>
-여기서 선택할 수 있는 방법은 2가지 였는데  
+{% include _figure.html src="https://angularjs.org/img/AngularJS-large.png" caption="" %}
 
- 1. 로컬에서 build된 _site폴더를 github에 올린다.
- 2. 삽질을 하며 실제 에러 원인이 무엇인지 밝혀낸다.
+간단한 예제를 통해 바인딩 기능과 각 controller의 scope을 통해  
+신기방기한 framework이라는 건 알았지만 제대로 사용해 본적이 없는데  
+프로젝트 정리 페이지 제작에 적용해 보았다.
+결과물은 우측 상단의  
+[projects](http://chaospace.github.io/projects)메뉴를 통해 확인이 가능하다.
 
-1.번을 선택할 경우 jekyll을 사용할 이유가 없다는 생각에 2번을 선택하고  
-[github에서 제공하는 페이지](https://help.github.com/articles/troubleshooting-github-pages-build-failures/)를 보며 천천히 삽질을 시작했다.  
+***
 
-### github-pages build failed 원인
+### Angularjs 사용부분
 
 - 확인되지 않은 이메일 주소
 - 지원되지 않는 플러그인
