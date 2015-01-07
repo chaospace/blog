@@ -6,12 +6,13 @@ chaospace:
   logo:         logo.png
   
   # Company information
+  # http://chaospace.github.io/timeline
   company:      chaospace
   url:          http://chaospace.github.io
   facebook:     chaospace
   twitter:      ichaospace
   gplus:        '101183822199340201470'
-  about_link:   http://chaospace.github.io/timeline
+  about_link:   /about
   
   # Product Information
   projects_link: http://chaospace.github.io/projects
