@@ -11,6 +11,12 @@ tag: [github, jekyll, github-pages]
 
 category: "programming"
 
+sitemap:
+  lastmod: 2015-01-01
+  priority: 0.7
+  changefreq: 'monthly'
+  exclude: 'yes'
+  
 author:
   name: chaospace
   twitter: ichaospace

@@ -11,6 +11,12 @@ tag: [angularjs, javascript]
 
 category: "programming"
 
+sitemap:
+  lastmod: 2015-01-06
+  priority: 0.7
+  changefreq: 'monthly'
+  exclude: 'yes'
+  
 author:
   name: chaospace
   twitter: ichaospace
