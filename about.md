@@ -14,18 +14,23 @@ sitemap:
   exclude: 'yes'
 ---
 
-  플래시 액션스크립트로 프로그래밍을 시작한 FrontEnd Developer.  
-  빠르게 발전하는 js기술에 비해 저속한 javascript이해도와 함께  
-  objective-c, android를 통한 앱개발 경험을 지니고 있다.
-  
+## About Me
+  **FrontEnd Developer**  
+  actionscript침체 후 objective-c를 통한 iphone 앱 개발을 시작  
+  hybrid app제작에 필요한 최소한의 android스킽을 배움.  
+  부족한 html, css 노하우를 익히기 위해 노력중.
 
+***
+  
 ## Languages
  - ActionScript
  - JavaScript
  - Objective-C
  - HTML&CSS
     
-## Experience
+***
+
+## Project  
  - LGHShop Application ( ios, android )
  - Korean Air Travel Type Test ( actionscript )
  - LG crm MediaPlayer ( android, ionic )
@@ -35,3 +40,10 @@ sitemap:
  - LG zin Interior Simulation ( actionscript )
  - Story Album MovieMaker ( actionscript )
  - Encrypt SWF Generator ( anctionscript, mdm zinc )
+ 
+***
+
+## ETC
+ - Academy Timo as3 기초강의
+ - 한성대 앱 창작터 flash를 이용한 앱제작 강의
+ - {% include _link.html href="http://wikibook.co.kr/webdongne-14-examples/" message="[따라 하면서 배우는 HTML5 CSS3 jQuery JavaScript]" target="_blank" %}
