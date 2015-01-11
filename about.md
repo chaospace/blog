@@ -16,9 +16,9 @@ sitemap:
 
 ## About Me
   **FrontEnd Developer**  
-  actionscript침체 후 objective-c를 통한 iphone 앱 개발을 시작  
-  hybrid app제작에 필요한 최소한의 android스킽을 배움.  
-  부족한 html, css 노하우를 익히기 위해 노력중.
+  flash가 쇠퇴와 함께, objective-c와 javscript를 시작.  
+  iphone앱만 하다 hybrid app제작에 필요한 최소한의 android스킽을 배움.  
+  웹 표준을 이용한 프론트 개발을 계속하기 위해 부족한 html, css 노하우를 익히기 위해 노력중.
 
 ***
   
