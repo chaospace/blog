@@ -100,7 +100,6 @@ theme: obsidian
 deploy:
   type: 'git'
   repo:  https://github.com/chaospace/chaospace.github.io.git
-  token: "882a2c724b09d561c419b2150a0b0a28feca7d89"
 
 
 search:
